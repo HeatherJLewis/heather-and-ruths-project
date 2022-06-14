@@ -4,7 +4,8 @@
   "description": "A small application to practise our technical skills",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/HeatherJLewis/heather-and-ruths-project/issues"
   },
-  "homepage": "https://github.com/HeatherJLewis/heather-and-ruths-project#readme"
+  "homepage": "https://github.com/HeatherJLewis/heather-and-ruths-project#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
